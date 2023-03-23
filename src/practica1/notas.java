@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class notas {
 
-	double nota1, nota2, nota3;
+	double uf1, nota2, nota3;
 	
 	double acu1, acu2, acu3, def;
 	
@@ -31,7 +31,7 @@ public class notas {
 		System.out.println("ingrese las notas del estudiante");
 		
 		System.out.print("ingrese nota 1: ");
-		nota1= entrada.nextDouble();
+		uf1= entrada.nextDouble();
 		
 		System.out.print("ingrese nota 2: ");
 		nota2= entrada.nextDouble();
@@ -48,7 +48,7 @@ public class notas {
 	 */
 	public void comprobarcion(){
 		
-		if (nota1>10) {
+		if (uf1>10) {
 			
 			System.out.println(" nota1 mal introducida");
 			
@@ -84,7 +84,7 @@ public class notas {
 	 
 	 */
 	public void Calculonotas() {
-		acu1= nota1*0.35;
+		acu1= uf1*0.35;
 		
 		acu2 = nota2 * 0.35;
 		
@@ -105,7 +105,7 @@ public class notas {
 
 		System.out.println(" notas introducidas son:");
 		
-		System.out.println(" nota1 = " + nota1);
+		System.out.println(" nota1 = " + uf1);
 		
 		System.out.println(" nota2 = " + nota2);
 		
